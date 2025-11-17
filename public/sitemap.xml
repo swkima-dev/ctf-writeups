@@ -5,14 +5,24 @@
     <loc>http://localhost:1313/ctf-writeups/</loc>
     <lastmod>2025-11-17T10:42:40+09:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/ctf-writeups/tags/easy/</loc>
+    <lastmod>2025-11-17T10:42:40+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ctf-writeups/tags/forensics/</loc>
+    <lastmod>2025-11-17T10:42:40+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ctf-writeups/tags/picogym/</loc>
+    <lastmod>2025-11-17T10:42:40+09:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/ctf-writeups/posts/picogym-riddle-registry/</loc>
     <lastmod>2025-11-17T10:42:40+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/ctf-writeups/posts/</loc>
     <lastmod>2025-11-17T10:42:40+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ctf-writeups/categories/</loc>
-  </url><url>
     <loc>http://localhost:1313/ctf-writeups/tags/</loc>
+    <lastmod>2025-11-17T10:42:40+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ctf-writeups/categories/</loc>
   </url>
 </urlset>

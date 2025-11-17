@@ -13,11 +13,14 @@
       <link>http://localhost:1313/ctf-writeups/posts/picogym-riddle-registry/</link>
       <pubDate>Mon, 17 Nov 2025 10:42:40 +0900</pubDate>
       <guid>http://localhost:1313/ctf-writeups/posts/picogym-riddle-registry/</guid>
-      <description>&lt;h1 id=&#34;riddle-registry&#34;&gt;Riddle Registry&lt;/h1&gt;
-&lt;h2 id=&#34;問題概要&#34;&gt;問題概要&lt;/h2&gt;
-&lt;p&gt;pdf からフラグを取る&lt;/p&gt;
+      <description>&lt;h2 id=&#34;問題概要&#34;&gt;問題概要&lt;/h2&gt;
+&lt;p&gt;捜査官としてPDFからフラグを見つけろというもの&lt;/p&gt;
 &lt;h2 id=&#34;解き方&#34;&gt;解き方&lt;/h2&gt;
-&lt;p&gt;pdfをエディタで開いて、authorの部分をBase64でデコードするだけ&lt;/p&gt;</description>
+&lt;p&gt;PDFを開いて見える黒塗の部分はダミーなので無視
+pdfをエディタで開いて、authorの部分をBase64でデコードするだけ&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;❯ echo &amp;#34;cGljb0NURntwdXp6bDNkX20zdGFkYXRhX2YwdW5kIV80MjQ0MGM3ZH0\075&amp;#34; | base64 -d
+picoCTF{puzzl3d_m3tadata_f0und!_42440c7d}
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
   </channel>
 </rss>
