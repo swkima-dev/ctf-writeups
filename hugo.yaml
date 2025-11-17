@@ -21,28 +21,15 @@ params:
   comments: false              # コメント不要ならfalse
 
   # Author / Profile
-  profileMode:
-    enabled: true
-    title: "Swkima CTF Writeups"    # ブログタイトル
-    subtitle: "picoCTF / picoGym / Security Notes" 
-    imageUrl: ""                    # アイコン画像を入れる場合
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: "Profile"
-    buttons:
-      - name: Writeups
-        url: "./posts"
-      - name: Tags
-        url: "./tags"
-      - name: GitHub
-        url: "https://github.com/swkima-dev"
-
-  # ホームページがカード風になる
   homeInfoParams:
-    Title: "Welcome"
-    Content: >
-      ここは **swkima** の CTF writeup ブログです。  
-      picoCTF / picoGym の writeup を中心に投稿しています。
+    Title: SwkimaのCTF Writeups
+    Content: CTFのwriteupなど書きます
+
+  socialIcons: # optional
+    - name: "GitHub"
+      url: "https://github.com/swkima-dev"
+    - name: "Twitter"
+      url: "https://x.com/nkmidoriphis"
 
   # トップページの記事リストデザイン
   assets:
@@ -51,11 +38,6 @@ params:
 
   # カードスタイル
   listStyle: "card"
-
-  # シェアリンクを出す
-  socialIcons:
-    - name: github
-      url: "https://github.com/swkima-dev"
 
   # 直近5つの記事を表示
 
