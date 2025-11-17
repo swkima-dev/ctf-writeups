@@ -3,3 +3,7 @@ languageCode: ja
 title: picoCTF / picoGym Writeups
 
 theme: ["PaperMod"]
+
+caches:
+  images:
+    dir: :cacheDir/images
