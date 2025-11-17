@@ -7,3 +7,67 @@ theme: ["PaperMod"]
 caches:
   images:
     dir: :cacheDir/images
+
+params:
+  # 基本設定
+  defaultTheme: auto           # dark/light 自動
+  disableThemeToggle: false    # 切り替えボタン
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowToc: true                # 右側に目次
+  TocOpen: true                # 目次を折りたたまず開く
+  comments: false              # コメント不要ならfalse
+
+  # Author / Profile
+  profileMode:
+    enabled: true
+    title: "Swkima CTF Writeups"    # ブログタイトル
+    subtitle: "picoCTF / picoGym / Security Notes" 
+    imageUrl: ""                    # アイコン画像を入れる場合
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: "Profile"
+    buttons:
+      - name: Writeups
+        url: "/posts"
+      - name: Tags
+        url: "/tags"
+      - name: GitHub
+        url: "https://github.com/swkima"
+
+  # ホームページがカード風になる
+  homeInfoParams:
+    Title: "Welcome"
+    Content: >
+      ここは **swkima** の CTF writeup ブログです。  
+      picoCTF / picoGym の writeup を中心に投稿しています。
+
+  # トップページの記事リストデザイン
+  # ListStyleをcardにすると「ボーダー付きのカード型」になる！
+  # ← これがあなたが求めている “記事の枠線（ボーダー）” です
+  assets:
+    disableHLJS: false        # highlight.js 有効
+    favicon: ""               # 任意
+
+  # カードスタイル
+  # ボーダーが出ない → listStyle が "card" になっていない可能性が高いです
+  listStyle: "card"
+
+  # シェアリンクを出す
+  socialIcons:
+    - name: github
+      url: "https://github.com/swkima"
+
+menu:
+  main:
+    - name: Home
+      url: "/"
+      weight: 1
+    - name: Posts
+      url: "/posts/"
+      weight: 2
+    - name: Tags
+      url: "/tags/"
+      weight: 3
