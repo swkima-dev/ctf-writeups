@@ -7,7 +7,7 @@ tags: [ "picoGym", "easy", "generalSkills"]
 ## 問題ページ
 https://play.picoctf.org/practice/challenge/527
 
-## 問題概要
+## 概要
 サーバーのログファイルを見て、バラバラのフラグをまとめろというもの
 
 ## 解き方
