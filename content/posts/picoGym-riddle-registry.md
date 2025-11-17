@@ -4,6 +4,9 @@ title: 'PicoGym Riddle Registry'
 tags: [ "picoGym", "easy", "forensics"]
 ---
 
+## 問題ページ
+https://play.picoctf.org/practice/challenge/530
+
 ## 問題概要
 捜査官としてPDFからフラグを見つけろというもの
 
