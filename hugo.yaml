@@ -57,6 +57,11 @@ params:
     - name: github
       url: "https://github.com/swkima-dev"
 
+  # 直近5つの記事を表示
+
+  ShowRecent: true
+  RecentLimit: 5   # 表示する記事数
+
 menu:
   main:
     - name: Home
