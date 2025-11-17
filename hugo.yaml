@@ -1,0 +1,5 @@
+baseURL: https://swkima-dev.github.io/ctf-writeups/
+languageCode: ja
+title: picoCTF / picoGym Writeups
+
+theme: ["PaperMod"]
