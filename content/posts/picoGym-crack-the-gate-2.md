@@ -13,7 +13,7 @@ https://play.picoctf.org/practice/challenge/521
 
 サイトURLとEmailとは別に、パスワードのリストも与えられます
 
-本問は"Crack the Gate 1"という問題の続きという位置づけ
+本問は["Crack the Gate 1"]( {{<ref "posts/picoGym-crack-the-gate-1.md" >}} )という問題の続きという位置づけ
 
 ## 予備知識
 ### X-Forwarded-For ヘッダー
