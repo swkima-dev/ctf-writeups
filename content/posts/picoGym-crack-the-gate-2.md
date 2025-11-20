@@ -53,7 +53,7 @@ https://play.picoctf.org/practice/challenge/521
 
 実際に攻撃を仕掛けると、以下のようなResultが得られます
 
-|0| | |200|205|false|false|252| |
+|Request|Payload1|Payload2|Status code|Response receive|Error|Timeout|Length|Comment|
 |:----|:----|:----|:----|:----|:----|:----|:----|:----|
 |1|100|l9xKfsH0|200|250|false|false|252| |
 |2|101|rCRnekkE|200|202|false|false|368| |
