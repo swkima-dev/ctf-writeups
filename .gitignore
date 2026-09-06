@@ -1,0 +1,4 @@
+# Hugo のビルド成果物（GitHub Actions 側でビルドするため管理不要）
+/public/
+/resources/_gen/
+.hugo_build.lock
