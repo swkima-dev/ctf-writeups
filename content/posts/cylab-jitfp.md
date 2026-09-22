@@ -72,7 +72,7 @@ GCC: (Alpine 13.2.1_git20240309) 13.2.1 20240309
 1. このバイナリがLinuxで動作するx86_64の機械語であること。
 2. PIE(Position Independent Executable)であること
 3. strippedされたELFファイルである
-4. puts, putcharやCorrect, Incorrect, Usage: %s <flag>などから、多分実行時の引数に文字列を指定して合ってたらCorrectと表示されるタイプの問題だということ
+4. puts, putcharやCorrect, Incorrect, Usage: %s \<flag\>などから、多分実行時の引数に文字列を指定して合ってたらCorrectと表示されるタイプの問題だということ
 5. Alpine Linuxでコンパイルされていること
 
 3.について、strippedされているということは機械語のシンボル情報が一部削除されていることを意味する。シンボル情報には関数名, 変数名などの情報が含まれていて、これが削除されているので
