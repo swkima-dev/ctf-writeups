@@ -29,7 +29,7 @@ params:
     - name: "GitHub"
       url: "https://github.com/swkima-dev"
     - name: "Twitter"
-      url: "https://x.com/nkmidoriphis"
+      url: "https://x.com/swkima_dev"
 
   # トップページの記事リストデザイン
   assets:
